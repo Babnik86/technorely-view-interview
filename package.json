@@ -8,10 +8,9 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
+    "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint",
-    "generate": "nuxt export && nuxt build",
-    "deploy": "push-dir --dir=dist --branch=master --cleanup"
+    "precommit": "npm run lint"
   },
   "dependencies": {
     "nuxt": "^2.0.0"
@@ -23,7 +22,5 @@
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^2.1.1",
     "eslint-plugin-vue": "^4.0.0",
-    "gh-pages": "^3.1.0",
-    "push-dir": "^0.4.1"
   }
 }
