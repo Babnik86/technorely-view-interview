@@ -1,7 +1,4 @@
 module.exports = {
-  router: {
-    base: '/technorely-view-interview/'
-  },
   /*
   ** Headers of the page
   */
