@@ -4,7 +4,7 @@
       <v-col cols="12" md="6">
         <v-text-field
           v-model.trim="q"
-          label="Solo"
+          label="Search Shows"
           single-line
           solo
           clearable
